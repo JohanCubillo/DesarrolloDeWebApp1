@@ -1,0 +1,4 @@
+.ubication{
+    position: relative;
+    margin-top: 50%;
+}

@@ -1,0 +1,99 @@
+.ubication{
+    position: relative;
+    margin-top: 150px;
+    margin-bottom: 10px;
+}
+
+a {text-decoration: none;}
+
+
+/* This class is added on scroll */
+.fixed {
+  position: static;
+  top: 0;
+  height: 70px;
+  z-index: 1;
+}
+
+body {
+  color: rgb(255, 255, 255);
+  font-family: 'open-sans-bold', AvenirNext-Medium, sans-serif;
+  font-size: 18px;
+  
+}
+.espaciado{
+  margin-top: 20px;
+  color:#757575 ;
+}
+.margenescard{
+  margin-left: 40px;
+  margin-top: 100px;
+  text-align: center;
+}
+.menuletras {
+  text-align: center;
+}
+
+.imagenclaseindex{
+  width: 100%;
+  height: 100%;
+}
+.menualtura{
+  height: 100%;
+  background-color: #757575;
+}
+.colorblack{
+  color: #757575;
+}
+.paddingbloques{
+  padding-left: 100px;
+  padding-top: 100px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  height: 90%;
+
+}
+.colorgrisletras{
+  color: #757575;
+ 
+}
+
+.colorsimbol{
+  background-color: #422828;
+ 
+}
+/* Navigation Settings */
+nav {
+  position: sticky;
+  bottom: 0;
+  width: 100%;
+  height: 70px;
+  background: #fff;
+}
+
+nav li {
+  display: inline-block;
+  padding: 24px 10px;
+}
+
+nav li a {
+  color: #757575;
+  text-transform: uppercase;
+}
+
+section {
+  height: 100%;
+}
+
+
+@media only screen and (max-width: 520px) {
+
+  nav li {
+    padding: 24px 4px;
+  }
+
+  nav li a {
+    font-size: 14px;
+  }
+
+}
